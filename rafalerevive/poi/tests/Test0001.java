@@ -40,7 +40,7 @@ public class Test0001 {
 			wb.createSheet();
 			HSSFSheet sheet = wb.getSheetAt(0);
 
-			// 画像ファイル貼り付け
+			//	画像ファイル貼り付け
 			{
 				int rowidx = 3;
 				int colidx = 4;
@@ -77,7 +77,7 @@ public class Test0001 {
 			wb.createSheet();
 			XSSFSheet sheet = wb.getSheetAt(0);
 
-			// 画像ファイル貼り付け
+			//	画像ファイル貼り付け
 			{
 				int colPix = 5;
 				int rowPix = 10;
@@ -88,9 +88,9 @@ public class Test0001 {
 				int rowidx2 = 20;
 				int colidx2 = 10;
 
-				// rowidx行colidx列のセルの左上から右にcolPix下にrowPixの位置を画像の左上
-				// rowidx2行colidx2列のセルの左上から右にcolPix2下にrowPix2の位置を画像の右下
-				// にして画像を貼り付ける。
+				//	rowidx行colidx列のセルの左上から右にcolPix下にrowPixの位置を画像の左上
+				//	rowidx2行colidx2列のセルの左上から右にcolPix2下にrowPix2の位置を画像の右下
+				//	にして画像を貼り付ける。
 
 				byte[] png = FileTools.readAllBytes("C:/var/mat/20181102_StaGeoデモ/20181102_デモ画像/20181102180024.png");
 
