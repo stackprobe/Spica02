@@ -46,7 +46,7 @@ public class Test0001 {
 				int colidx = 4;
 				double scale = 10.0;
 
-				byte[] png = FileTools.readAllBytes("C:/var/mat/20181102_StaGeoデモ/20181102_デモ画像/20181102180024.png");
+				byte[] png = FileTools.readAllBytes("C:/wb/20181102_StaGeoデモ/20181102_デモ画像/20181102180024.png");
 
 				int picIndex = wb.addPicture(png, HSSFWorkbook.PICTURE_TYPE_PNG);
 
@@ -92,7 +92,7 @@ public class Test0001 {
 				//	rowidx2行colidx2列のセルの左上から右にcolPix2下にrowPix2の位置を画像の右下
 				//	にして画像を貼り付ける。
 
-				byte[] png = FileTools.readAllBytes("C:/var/mat/20181102_StaGeoデモ/20181102_デモ画像/20181102180024.png");
+				byte[] png = FileTools.readAllBytes("C:/wb/20181102_StaGeoデモ/20181102_デモ画像/20181102180024.png");
 
 				int picIndex = wb.addPicture(png, XSSFWorkbook.PICTURE_TYPE_PNG);
 
