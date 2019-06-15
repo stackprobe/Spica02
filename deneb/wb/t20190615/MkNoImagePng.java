@@ -33,7 +33,8 @@ public class MkNoImagePng {
 		_bi = new BufferedImage(IMG_W, IMG_H, BufferedImage.TYPE_INT_ARGB);
 		_g = _bi.getGraphics();
 
-		_g.setColor(new Color(255, 255, 255, 0));
+		_g.setColor(new Color(255, 255, 255, 255));
+		//_g.setColor(new Color(255, 255, 255, 0));
 		_g.fillRect(0, 0, IMG_W, IMG_H);
 
 		_g.setColor(new Color(128, 128, 192, 255));
@@ -51,7 +52,8 @@ public class MkNoImagePng {
 		_bi = new BufferedImage(IMG_W, IMG_H, BufferedImage.TYPE_INT_ARGB);
 		_g = _bi.getGraphics();
 
-		_g.setColor(new Color(255, 255, 255, 0));
+		_g.setColor(new Color(255, 255, 255, 255));
+		//_g.setColor(new Color(255, 255, 255, 0));
 		_g.fillRect(0, 0, IMG_W, IMG_H);
 
 		_g.setColor(new Color(192, 64, 64, 255));
