@@ -1,4 +1,4 @@
-package deneb.requirelib.poi.tests;
+package rafalerevive.poi.tests;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
