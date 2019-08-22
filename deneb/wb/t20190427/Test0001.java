@@ -22,7 +22,7 @@ public class Test0001 {
 		Base64Unit b64u = Base64Unit.createByC6364P("?`=");
 
 		byte[] d = b64u.decode(
-				////////////////////////////////////////////// // $_git:secret
+				///////////////////////////////////////////////// $_git:secret
 				);
 
 		System.out.println(BinTools.Hex.toString(d));
