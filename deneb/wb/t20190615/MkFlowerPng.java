@@ -26,7 +26,7 @@ public class MkFlowerPng {
 		int h = 320;
 
 		_bi = ImageIO.read(new File(
-				"C:/var/WebTests/HtmlTests/HtmlTest17/res/src/flower301.png"
+				"C:/wb2/20191201_html/HtmlTests/HtmlTest17/res/src/flower301.png"
 				));
 
 		writeFlower("C:/temp/flower301-00.png", 0, 0, w, h);
@@ -35,7 +35,7 @@ public class MkFlowerPng {
 		writeFlower("C:/temp/flower301-11.png", w, h, w, h);
 
 		_bi = ImageIO.read(new File(
-				"C:/var/WebTests/HtmlTests/HtmlTest17/res/src/flower302.png"
+				"C:/wb2/20191201_html/HtmlTests/HtmlTest17/res/src/flower302.png"
 				));
 
 		writeFlower("C:/temp/flower302-00.png", 0, 0, w, h);
