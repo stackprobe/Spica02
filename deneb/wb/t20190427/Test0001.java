@@ -2,7 +2,6 @@ package deneb.wb.t20190427;
 
 import charlotte.tools.Base64Unit;
 import charlotte.tools.BinTools;
-import charlotte.tools.StringTools;
 
 public class Test0001 {
 	public static void main(String[] args) {
@@ -22,10 +21,10 @@ public class Test0001 {
 		Base64Unit b64u = Base64Unit.createByC6364P("?`=");
 
 		byte[] d = b64u.decode(
-				///////////////////////////////////////////////// $_git:secret
+				///////////////////////////////////////////// $_git:secret
 				);
 
 		System.out.println(BinTools.Hex.toString(d));
-		System.out.println(new String(d, StringTools.CHARSET_SJIS));
+		//System.out.println(new String(d, StringTools.CHARSET_SJIS));
 	}
 }
